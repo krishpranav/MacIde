@@ -15,3 +15,13 @@
 @synthesize backgroundView   = _backgroundView;
 @synthesize iconView         = _iconView;
 
+- ( void )dealloc
+{
+    RELEASE_IVAR(_versionTextField);
+    RELEASE_IVAR(_backgroundView);
+    RELEASE_IVAR(_iconView);
+    
+    [super dealloc];
+}
+
+@end
