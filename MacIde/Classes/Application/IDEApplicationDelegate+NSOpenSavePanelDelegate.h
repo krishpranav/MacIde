@@ -6,8 +6,8 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEApplicationDelegate_NSOpenSavePanelDelegate_h
-#define IDEApplicationDelegate_NSOpenSavePanelDelegate_h
+#import "IDEApplicationDelegate.h"
 
+@interface CEApplicationDelegate( NSOpenSavePanelDelegate ) < NSOpenSavePanelDelegate >
 
-#endif /* IDEApplicationDelegate_NSOpenSavePanelDelegate_h */
+@end
