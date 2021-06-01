@@ -28,3 +28,16 @@
     RESERVED_IVARS( CEApplicationDelegate , 5 );
 }
 
+
+@property(atomic, readonly) IDEMainWindowController * activeMainWindowController;
+
+
++ ( CEApplicationDelegate * )sharedInstance;
+- ( IBAction )showPreferencesWindow: ( id )sender;
+- ( IBAction )showAboutWindow: ( id )sender;
+- ( IBAction )showAlternateAboutWindow: ( id )sender;
+- ( IBAction )showRegistrationWindow: ( id )sender;
+- ( IBAction )newWindow: ( id )sender;
+- ( IBAction )resetColorThemes: ( id )sender;
+
+@end
