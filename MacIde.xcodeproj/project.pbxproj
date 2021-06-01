@@ -54,6 +54,7 @@
 		9F3F8AE926661C4B007FB828 /* avx2intrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avx2intrin.h; sourceTree = "<group>"; };
 		9F3F8AEA26661C95007FB828 /* avxintrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avxintrin.h; sourceTree = "<group>"; };
 		9F3F8AEB26661CA1007FB828 /* bmi2intrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmi2intrin.h; sourceTree = "<group>"; };
+		9F3F8AED26661D5B007FB828 /* CEMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 				9F3192DB26660244002CB4CE /* Info.plist */,
 				9F3192DC26660244002CB4CE /* main.m */,
 				9F3192DE26660244002CB4CE /* MacIde.entitlements */,
+				9F3F8AED26661D5B007FB828 /* CEMacros.h */,
 			);
 			path = MacIde;
 			sourceTree = "<group>";
