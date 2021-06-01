@@ -19,3 +19,13 @@
 #import "IDERegistrationWindowController.h"
 
 
+@implementation IDEApplicationDelegate
+
+@synthesize activeMainWindowController = _activeMainWindowController;
+
++ ( IDEApplicationDelegate *) sharedInstance
+{
+    return (IDEApplicationDelegate *)(APPLICATION.delegate);
+}
+
+@end
