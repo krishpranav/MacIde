@@ -55,4 +55,20 @@
     [ super dealloc ];
 }
 
+- ( void )applicationDidFinishLaunching: ( NSNotification * )notification
+{
+    ( void )notification;
+    
+    [ IDEPreferences sharedInstance ];
+    [ self installApplicationSupportFiles ];
+    [ self firstLaunch ];
+    
+    [ NOTIFICATION_CENTER addObserver: self selector: @selector( windowDidClose: )     name: NSWindowWillCloseNotification    object: nil ];
+    [ NOTIFICATION_CENTER addObserver: self selector: @selector( windowDidBecomeKey: ) name: NSWindowDidBecomeKeyNotification object: nil ];
+    
+    if( _mainWindowControllers.count == 0 )
+    {
+        [ self newWindow: nil ];
+    }
+}
 @end
