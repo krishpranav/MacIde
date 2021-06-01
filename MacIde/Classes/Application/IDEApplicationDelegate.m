@@ -28,4 +28,18 @@
     return (IDEApplicationDelegate *)(APPLICATION.delegate);
 }
 
+- ( id )init
+{
+    if( ( self = [ super init ] ) )
+    {
+        [ IDEPreferences sharedInstance ];
+        [ self installApplicationSupportFiles ];
+        [ self firstLaunch ];
+        
+        _mainWindowControllers = [ [ NSMutableArray alloc ] initWithCapacity: 10 ];
+    }
+    
+    return self;
+}
+
 @end
