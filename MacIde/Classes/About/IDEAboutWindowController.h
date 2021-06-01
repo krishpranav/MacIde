@@ -20,7 +20,12 @@
     
 @private
     RESERVED_IVARS( IDEAboutWindowController, 5);
-
-@property( nonatomic, readwrite, retain ) IBOutlet CEBackgroundView * backgroundView;
-    
 }
+
+@property( nonatomic, readwrite, retain ) IBOutlet IDEBackgroundView * backgroundView;
+
+@property(nonatomic, readwrite, retain) IBOutlet NSTextField * versionTextField;
+
+@property(nonatomic, readwrite, retain) IBOutlet NSImageView * iconView;
+
+@end
