@@ -13,6 +13,8 @@
 		9F3192E826660244002CB4CE /* MacIdeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192E726660244002CB4CE /* MacIdeTests.m */; };
 		9F3192F326660245002CB4CE /* MacIdeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192F226660245002CB4CE /* MacIdeUITests.m */; };
 		9F3F8AE02666188F007FB828 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F8ADF2666188F007FB828 /* Info.plist */; };
+		9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */; };
+		9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,12 @@
 		9F3F8AEA26661C95007FB828 /* avxintrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avxintrin.h; sourceTree = "<group>"; };
 		9F3F8AEB26661CA1007FB828 /* bmi2intrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmi2intrin.h; sourceTree = "<group>"; };
 		9F3F8AED26661D5B007FB828 /* CEMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEMacros.h; sourceTree = "<group>"; };
+		9F3F8AEE26661DE7007FB828 /* CETypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CETypes.h; sourceTree = "<group>"; };
+		9F3F8AEF26661DF7007FB828 /* CEWarnings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEWarnings.h; sourceTree = "<group>"; };
+		9FCC178D2666438D002E0EE8 /* IDEAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAboutWindowController.h; sourceTree = "<group>"; };
+		9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEAboutWindowController.m; sourceTree = "<group>"; };
+		9FCC1791266643C4002E0EE8 /* IDEAlternateAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAlternateAboutWindowController.h; sourceTree = "<group>"; };
+		9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEAlternateAboutWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,7 @@
 		9F3192CF26660242002CB4CE /* MacIde */ = {
 			isa = PBXGroup;
 			children = (
+				9FCC178B26664366002E0EE8 /* Classes */,
 				9F3F8ADD26661841007FB828 /* Clang.bundle */,
 				9F3192D626660244002CB4CE /* Assets.xcassets */,
 				9F3192D826660244002CB4CE /* Main.storyboard */,
@@ -112,6 +121,8 @@
 				9F3192DC26660244002CB4CE /* main.m */,
 				9F3192DE26660244002CB4CE /* MacIde.entitlements */,
 				9F3F8AED26661D5B007FB828 /* CEMacros.h */,
+				9F3F8AEE26661DE7007FB828 /* CETypes.h */,
+				9F3F8AEF26661DF7007FB828 /* CEWarnings.h */,
 			);
 			path = MacIde;
 			sourceTree = "<group>";
@@ -172,6 +183,25 @@
 				9F3F8AEB26661CA1007FB828 /* bmi2intrin.h */,
 			);
 			path = include;
+			sourceTree = "<group>";
+		};
+		9FCC178B26664366002E0EE8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9FCC178C26664374002E0EE8 /* About */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9FCC178C26664374002E0EE8 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				9FCC178D2666438D002E0EE8 /* IDEAboutWindowController.h */,
+				9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */,
+				9FCC1791266643C4002E0EE8 /* IDEAlternateAboutWindowController.h */,
+				9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */,
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +334,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
+				9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */,
 				9F3192DD26660244002CB4CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
