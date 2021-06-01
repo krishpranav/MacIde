@@ -6,8 +6,13 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEApplicationDelegate_Private_h
-#define IDEApplicationDelegate_Private_h
+#import "IDEApplicationDelegate.h"
 
+@interface IDEApplicationDelegate(Private)
 
-#endif /* IDEApplicationDelegate_Private_h */
+- (void)installApplicationSupportFiles;
+- (void)firstLaunch;
+- (void)windowDidClose: (NSNotification *)notification;
+- (void)windowDidBecomeKey: (NSNotification *)notification;
+
+@end
