@@ -47,6 +47,7 @@
 		9F3192F426660245002CB4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F3F8ADF2666188F007FB828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9F3F8AE426661931007FB828 /* __wmmintrin_aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = __wmmintrin_aes.h; sourceTree = "<group>"; };
+		9F3F8AE5266619B2007FB828 /* __wmmintrin_pclmul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = __wmmintrin_pclmul.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				9F3F8AE426661931007FB828 /* __wmmintrin_aes.h */,
+				9F3F8AE5266619B2007FB828 /* __wmmintrin_pclmul.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
