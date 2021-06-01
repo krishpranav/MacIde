@@ -1,0 +1,21 @@
+
+/* $Id$ */
+
+#ifdef __OBJC__
+    
+    #import <Cocoa/Cocoa.h>
+    #import <ClangKit/ClangKit.h>
+    
+    #import "CEWarnings.h"
+    #import "CEMacros.h"
+    #import "CETypes.h"
+    
+    #import "NSFileManager+CE.h"
+    #import "NSBundle+CE.h"
+    #import "NSString+CE.h"
+    #import "NSApplication+CE.h"
+    #import "NSTextView+CE.h"
+    #import "NSImage+CE.h"
+    #import "NSView+CE.h"
+    
+#endif
