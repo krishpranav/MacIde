@@ -46,6 +46,7 @@
 		9F3192F226660245002CB4CE /* MacIdeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacIdeUITests.m; sourceTree = "<group>"; };
 		9F3192F426660245002CB4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F3F8ADF2666188F007FB828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9F3F8AE426661931007FB828 /* __wmmintrin_aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = __wmmintrin_aes.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,9 +136,26 @@
 		9F3F8ADE26661872007FB828 /* Contents */ = {
 			isa = PBXGroup;
 			children = (
+				9F3F8AE22666190B007FB828 /* Resources */,
 				9F3F8ADF2666188F007FB828 /* Info.plist */,
 			);
 			path = Contents;
+			sourceTree = "<group>";
+		};
+		9F3F8AE22666190B007FB828 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F3F8AE326661916007FB828 /* include */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F3F8AE326661916007FB828 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9F3F8AE426661931007FB828 /* __wmmintrin_aes.h */,
+			);
+			path = include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
