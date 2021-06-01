@@ -6,8 +6,21 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEAboutWindowController_h
-#define IDEAboutWindowController_h
+#import "IDEWindowController.h"
 
+@class IDEBackgroundView;
 
-#endif /* IDEAboutWindowController_h */
+@interface IDEAboutWindowController: IDEWindowController
+{
+@protected
+    
+    CEBackgroundView * _backgroundView;
+    NSTextField      * _versionTextField;
+    NSImageView      * _iconView;
+    
+@private
+    RESERVED_IVARS( IDEAboutWindowController, 5);
+
+@property( nonatomic, readwrite, retain ) IBOutlet CEBackgroundView * backgroundView;
+    
+}
