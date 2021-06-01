@@ -50,6 +50,10 @@
 		9F3F8AE5266619B2007FB828 /* __wmmintrin_pclmul.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = __wmmintrin_pclmul.h; sourceTree = "<group>"; };
 		9F3F8AE6266619F3007FB828 /* altivec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = altivec.h; sourceTree = "<group>"; };
 		9F3F8AE726661B31007FB828 /* ammintrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ammintrin.h; sourceTree = "<group>"; };
+		9F3F8AE826661B61007FB828 /* arm_neon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arm_neon.h; sourceTree = "<group>"; };
+		9F3F8AE926661C4B007FB828 /* avx2intrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avx2intrin.h; sourceTree = "<group>"; };
+		9F3F8AEA26661C95007FB828 /* avxintrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = avxintrin.h; sourceTree = "<group>"; };
+		9F3F8AEB26661CA1007FB828 /* bmi2intrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmi2intrin.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,10 @@
 				9F3F8AE5266619B2007FB828 /* __wmmintrin_pclmul.h */,
 				9F3F8AE6266619F3007FB828 /* altivec.h */,
 				9F3F8AE726661B31007FB828 /* ammintrin.h */,
+				9F3F8AE826661B61007FB828 /* arm_neon.h */,
+				9F3F8AE926661C4B007FB828 /* avx2intrin.h */,
+				9F3F8AEA26661C95007FB828 /* avxintrin.h */,
+				9F3F8AEB26661CA1007FB828 /* bmi2intrin.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
