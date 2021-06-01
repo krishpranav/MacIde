@@ -12,3 +12,19 @@
 @class IDERegistrationWindowController;
 @class IDEMainWindowController;
 
+@interface IDEApplicationDelegate: NSObject < NSApplicationDelegate >
+{
+@protected
+    
+    NSMutableArray                   * _mainWindowControllers;
+    CEPreferencesWindowController    * _preferencesWindowController;
+    CEAboutWindowController          * _aboutWindowController;
+    CEAlternateAboutWindowController * _alternateAboutWindowController;
+    CERegistrationWindowController   * _registrationWindowController;
+    CEMainWindowController           * _activeMainWindowController;
+    
+@private
+    
+    RESERVED_IVARS( CEApplicationDelegate , 5 );
+}
+
