@@ -6,4 +6,12 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "IDEAboutWindowController.h"
+#import "IDEBackgroundView.h"
+
+@implementation IDEAboutWindowController
+
+@synthesize versionTextField = _versionTextField;
+@synthesize backgroundView   = _backgroundView;
+@synthesize iconView         = _iconView;
+
