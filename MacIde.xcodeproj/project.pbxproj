@@ -12,6 +12,7 @@
 		9F3192DD26660244002CB4CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192DC26660244002CB4CE /* main.m */; };
 		9F3192E826660244002CB4CE /* MacIdeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192E726660244002CB4CE /* MacIdeTests.m */; };
 		9F3192F326660245002CB4CE /* MacIdeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192F226660245002CB4CE /* MacIdeUITests.m */; };
+		9F3F8AE02666188F007FB828 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F8ADF2666188F007FB828 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		9F3192EE26660245002CB4CE /* MacIdeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacIdeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3192F226660245002CB4CE /* MacIdeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacIdeUITests.m; sourceTree = "<group>"; };
 		9F3192F426660245002CB4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3F8ADF2666188F007FB828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		9F3192CF26660242002CB4CE /* MacIde */ = {
 			isa = PBXGroup;
 			children = (
+				9F3F8ADD26661841007FB828 /* Clang.bundle */,
 				9F3192D626660244002CB4CE /* Assets.xcassets */,
 				9F3192D826660244002CB4CE /* Main.storyboard */,
 				9F3192DB26660244002CB4CE /* Info.plist */,
@@ -119,6 +122,22 @@
 				9F3192F426660245002CB4CE /* Info.plist */,
 			);
 			path = MacIdeUITests;
+			sourceTree = "<group>";
+		};
+		9F3F8ADD26661841007FB828 /* Clang.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				9F3F8ADE26661872007FB828 /* Contents */,
+			);
+			path = Clang.bundle;
+			sourceTree = "<group>";
+		};
+		9F3F8ADE26661872007FB828 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+				9F3F8ADF2666188F007FB828 /* Info.plist */,
+			);
+			path = Contents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +245,7 @@
 			files = (
 				9F3192D726660244002CB4CE /* Assets.xcassets in Resources */,
 				9F3192DA26660244002CB4CE /* Main.storyboard in Resources */,
+				9F3F8AE02666188F007FB828 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
