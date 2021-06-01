@@ -16,6 +16,8 @@
 		9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */; };
 		9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */; };
 		9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */; };
+		9FE6E9BC26664C6C00735C3B /* IDEApplicationDelegate+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6E9BB26664C6C00735C3B /* IDEApplicationDelegate+Private.m */; };
+		9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6E9BE26664C8700735C3B /* IDEApplicationDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,11 @@
 		9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEAlternateAboutWindowController.m; sourceTree = "<group>"; };
 		9FCC17962666470D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDEApplicationDelegate+NSOpenSavePanelDelegate.h"; sourceTree = "<group>"; };
 		9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEApplicationDelegate+NSOpenSavePanelDelegate.m"; sourceTree = "<group>"; };
+		9FCC17992666480A002E0EE8 /* bmiintrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmiintrin.h; sourceTree = "<group>"; };
+		9FE6E9BA26664C5E00735C3B /* IDEApplicationDelegate+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDEApplicationDelegate+Private.h"; sourceTree = "<group>"; };
+		9FE6E9BB26664C6C00735C3B /* IDEApplicationDelegate+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEApplicationDelegate+Private.m"; sourceTree = "<group>"; };
+		9FE6E9BD26664C7A00735C3B /* IDEApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEApplicationDelegate.h; sourceTree = "<group>"; };
+		9FE6E9BE26664C8700735C3B /* IDEApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEApplicationDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +191,7 @@
 				9F3F8AE926661C4B007FB828 /* avx2intrin.h */,
 				9F3F8AEA26661C95007FB828 /* avxintrin.h */,
 				9F3F8AEB26661CA1007FB828 /* bmi2intrin.h */,
+				9FCC17992666480A002E0EE8 /* bmiintrin.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -213,6 +221,10 @@
 			children = (
 				9FCC17962666470D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.h */,
 				9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */,
+				9FE6E9BA26664C5E00735C3B /* IDEApplicationDelegate+Private.h */,
+				9FE6E9BB26664C6C00735C3B /* IDEApplicationDelegate+Private.m */,
+				9FE6E9BD26664C7A00735C3B /* IDEApplicationDelegate.h */,
+				9FE6E9BE26664C8700735C3B /* IDEApplicationDelegate.m */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -347,8 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */,
 				9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */,
 				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
+				9FE6E9BC26664C6C00735C3B /* IDEApplicationDelegate+Private.m in Sources */,
 				9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */,
 				9F3192DD26660244002CB4CE /* main.m in Sources */,
 			);
