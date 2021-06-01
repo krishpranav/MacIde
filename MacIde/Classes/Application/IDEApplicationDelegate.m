@@ -6,4 +6,16 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+// imports
+#import "IDEApplicationDelegate.h"
+#import "IDEApplicationDelegate+Private.h"
+#import "IDEApplicationDelegate+NSOpenSavePanelDelegate.h"
+#import "IDEMainWindowController.h"
+#import "IDEPreferencesWindowController.h"
+#import "IDEAboutWindowController.h"
+#import "IDEAlternateAboutWindowController.h"
+#import "IDEPreferences.h"
+#import "IDEDocument.h"
+#import "IDERegistrationWindowController.h"
+
+
