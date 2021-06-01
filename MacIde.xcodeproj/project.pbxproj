@@ -15,6 +15,7 @@
 		9F3F8AE02666188F007FB828 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F8ADF2666188F007FB828 /* Info.plist */; };
 		9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */; };
 		9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */; };
+		9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEAboutWindowController.m; sourceTree = "<group>"; };
 		9FCC1791266643C4002E0EE8 /* IDEAlternateAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAlternateAboutWindowController.h; sourceTree = "<group>"; };
 		9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEAlternateAboutWindowController.m; sourceTree = "<group>"; };
+		9FCC17962666470D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDEApplicationDelegate+NSOpenSavePanelDelegate.h"; sourceTree = "<group>"; };
+		9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEApplicationDelegate+NSOpenSavePanelDelegate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,7 @@
 		9FCC178B26664366002E0EE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9FCC1794266646E4002E0EE8 /* Application */,
 				9FCC178C26664374002E0EE8 /* About */,
 			);
 			path = Classes;
@@ -202,6 +206,15 @@
 				9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */,
 			);
 			path = About;
+			sourceTree = "<group>";
+		};
+		9FCC1794266646E4002E0EE8 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9FCC17962666470D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.h */,
+				9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */,
 				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
 				9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */,
 				9F3192DD26660244002CB4CE /* main.m in Sources */,
