@@ -6,8 +6,15 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEAlternateAboutWindowController_h
-#define IDEAlternateAboutWindowController_h
+#import "IDEWindowController.h"
 
+@interface IDEAlternateAboutWindowController: IDEWindowController
+{
+    
+@protected
+    
+@private
+    RESERVED_IVARS(IDEAlternateAboutWindowController, 5);
+}
 
-#endif /* IDEAlternateAboutWindowController_h */
+@end
