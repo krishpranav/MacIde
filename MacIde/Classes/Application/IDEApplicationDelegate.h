@@ -6,8 +6,9 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEApplicationDelegate_h
-#define IDEApplicationDelegate_h
+@class IDEPreferencesWindowController;
+@class IDEAboutWindowController;
+@class IDEAlternateAboutWindowController;
+@class IDERegistrationWindowController;
+@class IDEMainWindowController;
 
-
-#endif /* IDEApplicationDelegate_h */
