@@ -19,4 +19,6 @@ FOUNDATION_EXPORT NSString * const IDEWindowControllerException;
     RESERVED_IVARS(IDEWindowController, 5);
 }
 
+@property(atomic, readwrite, assign)BOOL releaseOnWindowClose;
+
 @end
