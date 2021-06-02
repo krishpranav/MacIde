@@ -6,8 +6,13 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEOrderedDictionary_h
-#define IDEOrderedDictionary_h
-
-
-#endif /* IDEOrderedDictionary_h */
+@interface IDEOrderedDictionary: NSDictionary
+{
+@protected
+    
+    NSArray * _keys;
+    NSArray * _objects;
+    
+@private
+    RESERVED_IVARS(IDEOrderedDictionary, 5);
+}
