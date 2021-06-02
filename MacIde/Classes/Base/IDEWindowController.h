@@ -6,8 +6,6 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEWindowController_h
-#define IDEWindowController_h
+FOUNDATION_EXPORT NSString * const IDEWindowControllerException;
 
 
-#endif /* IDEWindowController_h */
