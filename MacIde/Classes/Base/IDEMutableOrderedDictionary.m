@@ -20,3 +20,14 @@
     
     return self;
 }
+
+- ( id )initWithCapacity: ( NSUInteger )capacity
+{
+    if( ( self = [ super init ] ) )
+    {
+        _keys    = [ [ NSMutableArray alloc ] initWithCapacity: capacity ];
+        _objects = [ [ NSMutableArray alloc ] initWithCapacity: capacity ];
+    }
+    
+    return self;
+}
