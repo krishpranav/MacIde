@@ -6,8 +6,10 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef NSApplication_CE_h
-#define NSApplication_CE_h
+#import <Quartz/Quartz.h>
 
+@interface NSApplication(CE) <QLPreviewPanelDataSource>
 
-#endif /* NSApplication_CE_h */
+- ( void )showQuickLookPanelForItemAtPath: ( NSString * )path sender: ( id )sender;
+
+@end
