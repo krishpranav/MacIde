@@ -17,3 +17,8 @@
     
     RESERVED_IVARS(IDEMutableOrderedDictionary, 5);
 }
+
+- (id)keyAtIndex: ( NSUInteger )index;
+- (id)objectAtIndex: ( NSUInteger )index;
+
+@end
