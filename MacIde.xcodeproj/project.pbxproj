@@ -65,6 +65,7 @@
 		9F3F8AED26661D5B007FB828 /* CEMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEMacros.h; sourceTree = "<group>"; };
 		9F3F8AEE26661DE7007FB828 /* CETypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CETypes.h; sourceTree = "<group>"; };
 		9F3F8AEF26661DF7007FB828 /* CEWarnings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEWarnings.h; sourceTree = "<group>"; };
+		9F6AD67A266760ED00BE68F9 /* IDETableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDETableViewDelegate.h; sourceTree = "<group>"; };
 		9FCC178D2666438D002E0EE8 /* IDEAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAboutWindowController.h; sourceTree = "<group>"; };
 		9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEAboutWindowController.m; sourceTree = "<group>"; };
 		9FCC1791266643C4002E0EE8 /* IDEAlternateAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAlternateAboutWindowController.h; sourceTree = "<group>"; };
@@ -248,6 +249,7 @@
 				9FDE740F2667529C00A39A89 /* IDEOrderedDictionary.m */,
 				9FDE7411266752A700A39A89 /* IDETableView.h */,
 				9FDE7412266752B300A39A89 /* IDETableView.m */,
+				9F6AD67A266760ED00BE68F9 /* IDETableViewDelegate.h */,
 			);
 			path = Base;
 			sourceTree = "<group>";
