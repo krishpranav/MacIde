@@ -6,8 +6,17 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDETableView_h
-#define IDETableView_h
+#import "IDETableViewDelegate.h"
+
+@interface IDETableView: NSTableView
+{
+@protected
+    
+
+    
+@private
+    RESERVED_IVARS(IDETableView, 5);
+}
 
 
-#endif /* IDETableView_h */
+@end
