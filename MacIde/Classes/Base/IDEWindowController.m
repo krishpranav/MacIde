@@ -10,3 +10,27 @@
 
 static NSString * const __classSuffix               = @"Controller";
 NSString * const IDEWindowControllerException = @"IDEWindowControllerException";
+
+@implementation IDEWindowController
+
+- ( id )init
+{
+    NSString * className;
+    NSString * nibName;
+    
+    className = NSStringFromClass( [ self class ] );
+    
+    if( [ className hasSuffix: __classSuffix ] == NO )
+    {
+        @throw [ NSException exceptionWithName: IDEWindowControllerException reason: @"Invalid window controller class name" userInfo: nil ];
+    }
+    
+    nibName = [ className substringToIndex: className.length - __classSuffix.length ];
+    
+    if( ( self = [ super initWithWindowNibName: nibName owner: self ] ) )
+    {
+        [ NOTIFICATION_CENTER addObserver: self selector: @selector( windowWillClose: ) name: NSWindowWillCloseNotification object: nil ];
+    }
+    
+    return self;
+}
