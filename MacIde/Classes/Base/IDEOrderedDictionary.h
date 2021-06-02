@@ -14,5 +14,11 @@
     NSArray * _objects;
     
 @private
-    RESERVED_IVARS(IDEOrderedDictionary, 5);
+    
+    RESERVED_IVARS( IDEOrderedDictionary , 5 );
 }
+
+- ( id )keyAtIndex: ( NSUInteger )index;
+- ( id )objectAtIndex: ( NSUInteger )index;
+
+@end
