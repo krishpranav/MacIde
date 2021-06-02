@@ -6,8 +6,10 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEWindowController_Private_h
-#define IDEWindowController_Private_h
+#import "IDEWindowController.h"
 
+@interface IDEWindowController(Private)
 
-#endif /* IDEWindowController_Private_h */
+- (void)windowWillClose:(NSNotification *)notification;
+
+@end
