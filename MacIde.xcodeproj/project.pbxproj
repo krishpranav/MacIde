@@ -13,6 +13,7 @@
 		9F3192E826660244002CB4CE /* MacIdeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192E726660244002CB4CE /* MacIdeTests.m */; };
 		9F3192F326660245002CB4CE /* MacIdeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192F226660245002CB4CE /* MacIdeUITests.m */; };
 		9F3F8AE02666188F007FB828 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F8ADF2666188F007FB828 /* Info.plist */; };
+		9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6AD67C2667619F00BE68F9 /* IDEViewController.m */; };
 		9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */; };
 		9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */; };
 		9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */; };
@@ -66,6 +67,8 @@
 		9F3F8AEE26661DE7007FB828 /* CETypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CETypes.h; sourceTree = "<group>"; };
 		9F3F8AEF26661DF7007FB828 /* CEWarnings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEWarnings.h; sourceTree = "<group>"; };
 		9F6AD67A266760ED00BE68F9 /* IDETableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDETableViewDelegate.h; sourceTree = "<group>"; };
+		9F6AD67B2667619300BE68F9 /* IDEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
+		9F6AD67C2667619F00BE68F9 /* IDEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEViewController.m; sourceTree = "<group>"; };
 		9FCC178D2666438D002E0EE8 /* IDEAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAboutWindowController.h; sourceTree = "<group>"; };
 		9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEAboutWindowController.m; sourceTree = "<group>"; };
 		9FCC1791266643C4002E0EE8 /* IDEAlternateAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAlternateAboutWindowController.h; sourceTree = "<group>"; };
@@ -250,6 +253,8 @@
 				9FDE7411266752A700A39A89 /* IDETableView.h */,
 				9FDE7412266752B300A39A89 /* IDETableView.m */,
 				9F6AD67A266760ED00BE68F9 /* IDETableViewDelegate.h */,
+				9F6AD67B2667619300BE68F9 /* IDEViewController.h */,
+				9F6AD67C2667619F00BE68F9 /* IDEViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -385,6 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */,
+				9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */,
 				9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */,
 				9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */,
 				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
