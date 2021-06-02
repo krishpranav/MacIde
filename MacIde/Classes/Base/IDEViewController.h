@@ -6,8 +6,23 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEViewController_h
-#define IDEViewController_h
+FOUNDATION_EXPORT NSString * const IDEViewControllerException;
 
+@interface IDEViewController: NSViewController
+{
+@protected
+    
+    NSView    * _currentView;
+    NSPopover * _popover;
+    
+@private
+    
+    RESERVED_IVARS( IDEViewController , 5 );
+}
 
-#endif /* IDEViewController_h */
+@property( atomic, readonly ) NSPopover * popover;
+
+- ( void )openInPopoverRelativeToRect: ( NSRect )rect ofView: ( NSView * )view preferredEdge: ( NSRectEdge )edge;
+- ( void )closePopover;
+
+@end
