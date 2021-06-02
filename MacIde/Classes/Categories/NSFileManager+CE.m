@@ -6,4 +6,13 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "NSFileManager+CE.h"
+
+static NSStirng * __applicationSupportDirectory = nil;
+
+static void __exit(void) __attribute__((destructor));
+static void __exit(void)
+{
+    [__applicationSupportDirectory release];
+}
+
