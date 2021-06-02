@@ -9,3 +9,14 @@
 FOUNDATION_EXPORT NSString * const IDEWindowControllerException;
 
 
+@interface IDEWindowController: NSWindowController
+{
+@protected
+    
+    BOOL _releaseOnWindowClose;
+    
+@private
+    RESERVED_IVARS(IDEWindowController, 5);
+}
+
+@end
