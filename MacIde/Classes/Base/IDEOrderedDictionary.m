@@ -6,4 +6,19 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "IDEOrderedDictionary.h"
+
+
+@implementation IDEOrderedDictionary
+
+- ( id )initWithObjects: ( const id[] )objects forKeys: ( const id< NSCopying >[] )keys count: ( NSUInteger )count
+{
+    if( ( self = [ super init ] ) )
+    {
+        _keys    = [ [ NSArray alloc ] initWithObjects: keys    count: count ];
+        _objects = [ [ NSArray alloc ] initWithObjects: objects count: count ];
+    }
+    
+    return self;
+}
+
