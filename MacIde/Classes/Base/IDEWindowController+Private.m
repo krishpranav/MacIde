@@ -6,4 +6,20 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "IDEWindowController+Private.h"
+
+@implementation IDEWindowController(Private)
+
+- (void)windowWillClose: (NSNotification *)notification
+{
+    NSWindow * window;
+    
+    window = notification.object;
+    
+        if( window == self.window && _releaseOnWindowClose == YES )
+        {
+            [self autorelease];
+        }
+}
+
+@end
