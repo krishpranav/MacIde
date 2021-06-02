@@ -16,6 +16,9 @@
 		9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */; };
 		9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */; };
 		9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */; };
+		9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE740C2667527E00A39A89 /* IDEMutableOrderedDictionary.m */; };
+		9FDE74102667529C00A39A89 /* IDEOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE740F2667529C00A39A89 /* IDEOrderedDictionary.m */; };
+		9FDE7413266752B300A39A89 /* IDETableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE7412266752B300A39A89 /* IDETableView.m */; };
 		9FE6E9BC26664C6C00735C3B /* IDEApplicationDelegate+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6E9BB26664C6C00735C3B /* IDEApplicationDelegate+Private.m */; };
 		9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6E9BE26664C8700735C3B /* IDEApplicationDelegate.m */; };
 /* End PBXBuildFile section */
@@ -69,6 +72,12 @@
 		9FCC17962666470D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDEApplicationDelegate+NSOpenSavePanelDelegate.h"; sourceTree = "<group>"; };
 		9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEApplicationDelegate+NSOpenSavePanelDelegate.m"; sourceTree = "<group>"; };
 		9FCC17992666480A002E0EE8 /* bmiintrin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bmiintrin.h; sourceTree = "<group>"; };
+		9FDE740B2667526E00A39A89 /* IDEMutableOrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEMutableOrderedDictionary.h; sourceTree = "<group>"; };
+		9FDE740C2667527E00A39A89 /* IDEMutableOrderedDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEMutableOrderedDictionary.m; sourceTree = "<group>"; };
+		9FDE740E2667528D00A39A89 /* IDEOrderedDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEOrderedDictionary.h; sourceTree = "<group>"; };
+		9FDE740F2667529C00A39A89 /* IDEOrderedDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEOrderedDictionary.m; sourceTree = "<group>"; };
+		9FDE7411266752A700A39A89 /* IDETableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDETableView.h; sourceTree = "<group>"; };
+		9FDE7412266752B300A39A89 /* IDETableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDETableView.m; sourceTree = "<group>"; };
 		9FE6E9BA26664C5E00735C3B /* IDEApplicationDelegate+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDEApplicationDelegate+Private.h"; sourceTree = "<group>"; };
 		9FE6E9BB26664C6C00735C3B /* IDEApplicationDelegate+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEApplicationDelegate+Private.m"; sourceTree = "<group>"; };
 		9FE6E9BD26664C7A00735C3B /* IDEApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEApplicationDelegate.h; sourceTree = "<group>"; };
@@ -199,6 +208,7 @@
 		9FCC178B26664366002E0EE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9FDE740A2667524F00A39A89 /* Base */,
 				9FCC1794266646E4002E0EE8 /* Application */,
 				9FCC178C26664374002E0EE8 /* About */,
 			);
@@ -227,6 +237,19 @@
 				9FE6E9BE26664C8700735C3B /* IDEApplicationDelegate.m */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		9FDE740A2667524F00A39A89 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9FDE740B2667526E00A39A89 /* IDEMutableOrderedDictionary.h */,
+				9FDE740C2667527E00A39A89 /* IDEMutableOrderedDictionary.m */,
+				9FDE740E2667528D00A39A89 /* IDEOrderedDictionary.h */,
+				9FDE740F2667529C00A39A89 /* IDEOrderedDictionary.m */,
+				9FDE7411266752A700A39A89 /* IDETableView.h */,
+				9FDE7412266752B300A39A89 /* IDETableView.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,12 +382,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */,
 				9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */,
 				9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */,
 				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
 				9FE6E9BC26664C6C00735C3B /* IDEApplicationDelegate+Private.m in Sources */,
 				9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */,
+				9FDE74102667529C00A39A89 /* IDEOrderedDictionary.m in Sources */,
 				9F3192DD26660244002CB4CE /* main.m in Sources */,
+				9FDE7413266752B300A39A89 /* IDETableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
