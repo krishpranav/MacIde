@@ -6,8 +6,12 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef NSFileManager_CE_h
-#define NSFileManager_CE_h
+@interface NSFileManager( IDE )
 
+- ( NSString * )pathOfDirectory:    ( NSSearchPathDirectory  )directory
+                       inDomain:           ( NSSearchPathDomainMask )domain
+                byAppendingPath:    ( NSString * )appendPath
+              createIfNecessary:  ( BOOL )create;
+- ( NSString * )applicationSupportDirectory;
 
-#endif /* NSFileManager_CE_h */
+@end
