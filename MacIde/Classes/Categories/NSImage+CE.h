@@ -6,8 +6,9 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef NSImage_CE_h
-#define NSImage_CE_h
+@interface NSImage(IDE)
 
+- ( NSImage * )imageWithSize: ( CGFloat )size;
+- ( NSImage * )grayscaleImage;
 
-#endif /* NSImage_CE_h */
+@end
