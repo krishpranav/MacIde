@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9F1E0B0A266767ED00327F30 /* IDEWindowController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */; };
 		9F1E0B0D2667680D00327F30 /* IDEWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B0C2667680D00327F30 /* IDEWindowController.m */; };
+		9F1E0B1226676AEF00327F30 /* NSApplication+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B1126676AEF00327F30 /* NSApplication+CE.m */; };
+		9F1E0B1526676B0400327F30 /* NSBundle+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B1426676B0400327F30 /* NSBundle+CE.m */; };
 		9F3192D726660244002CB4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3192D626660244002CB4CE /* Assets.xcassets */; };
 		9F3192DA26660244002CB4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3192D826660244002CB4CE /* Main.storyboard */; };
 		9F3192DD26660244002CB4CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192DC26660244002CB4CE /* main.m */; };
@@ -48,6 +50,10 @@
 		9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEWindowController+Private.m"; sourceTree = "<group>"; };
 		9F1E0B0B266767FC00327F30 /* IDEWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWindowController.h; sourceTree = "<group>"; };
 		9F1E0B0C2667680D00327F30 /* IDEWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEWindowController.m; sourceTree = "<group>"; };
+		9F1E0B1026676AE500327F30 /* NSApplication+CE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSApplication+CE.h"; sourceTree = "<group>"; };
+		9F1E0B1126676AEF00327F30 /* NSApplication+CE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+CE.m"; sourceTree = "<group>"; };
+		9F1E0B1326676AF900327F30 /* NSBundle+CE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSBundle+CE.h"; sourceTree = "<group>"; };
+		9F1E0B1426676B0400327F30 /* NSBundle+CE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+CE.m"; sourceTree = "<group>"; };
 		9F3192CD26660242002CB4CE /* MacIde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacIde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3192D626660244002CB4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3192D926660244002CB4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,6 +125,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1E0B0F26676AD100327F30 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9F1E0B1026676AE500327F30 /* NSApplication+CE.h */,
+				9F1E0B1126676AEF00327F30 /* NSApplication+CE.m */,
+				9F1E0B1326676AF900327F30 /* NSBundle+CE.h */,
+				9F1E0B1426676B0400327F30 /* NSBundle+CE.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		9F3192C426660242002CB4CE = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +235,7 @@
 		9FCC178B26664366002E0EE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9F1E0B0F26676AD100327F30 /* Categories */,
 				9FDE740A2667524F00A39A89 /* Base */,
 				9FCC1794266646E4002E0EE8 /* Application */,
 				9FCC178C26664374002E0EE8 /* About */,
@@ -401,11 +419,13 @@
 			files = (
 				9F1E0B0A266767ED00327F30 /* IDEWindowController+Private.m in Sources */,
 				9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */,
+				9F1E0B1226676AEF00327F30 /* NSApplication+CE.m in Sources */,
 				9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */,
 				9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */,
 				9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */,
 				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
 				9FE6E9BC26664C6C00735C3B /* IDEApplicationDelegate+Private.m in Sources */,
+				9F1E0B1526676B0400327F30 /* NSBundle+CE.m in Sources */,
 				9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */,
 				9FDE74102667529C00A39A89 /* IDEOrderedDictionary.m in Sources */,
 				9F3192DD26660244002CB4CE /* main.m in Sources */,
