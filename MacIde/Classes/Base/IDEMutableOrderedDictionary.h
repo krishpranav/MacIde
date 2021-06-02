@@ -6,8 +6,10 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef IDEMutableOrderedDictionary_h
-#define IDEMutableOrderedDictionary_h
-
-
-#endif /* IDEMutableOrderedDictionary_h */
+@interface IDEMutableOrderedDictionary: NSMutableDictionary
+{
+@protected
+    
+    NSMutableArray * _keys;
+    NSMutableArray * _objects;
+}
