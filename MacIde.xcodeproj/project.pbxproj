@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1E0B0A266767ED00327F30 /* IDEWindowController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */; };
+		9F1E0B0D2667680D00327F30 /* IDEWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B0C2667680D00327F30 /* IDEWindowController.m */; };
 		9F3192D726660244002CB4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3192D626660244002CB4CE /* Assets.xcassets */; };
 		9F3192DA26660244002CB4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3192D826660244002CB4CE /* Main.storyboard */; };
 		9F3192DD26660244002CB4CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192DC26660244002CB4CE /* main.m */; };
@@ -42,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F1E0B08266767DF00327F30 /* IDEWindowController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDEWindowController+Private.h"; sourceTree = "<group>"; };
+		9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEWindowController+Private.m"; sourceTree = "<group>"; };
+		9F1E0B0B266767FC00327F30 /* IDEWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWindowController.h; sourceTree = "<group>"; };
+		9F1E0B0C2667680D00327F30 /* IDEWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEWindowController.m; sourceTree = "<group>"; };
 		9F3192CD26660242002CB4CE /* MacIde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacIde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3192D626660244002CB4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3192D926660244002CB4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -255,6 +261,10 @@
 				9F6AD67A266760ED00BE68F9 /* IDETableViewDelegate.h */,
 				9F6AD67B2667619300BE68F9 /* IDEViewController.h */,
 				9F6AD67C2667619F00BE68F9 /* IDEViewController.m */,
+				9F1E0B08266767DF00327F30 /* IDEWindowController+Private.h */,
+				9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */,
+				9F1E0B0B266767FC00327F30 /* IDEWindowController.h */,
+				9F1E0B0C2667680D00327F30 /* IDEWindowController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -389,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1E0B0A266767ED00327F30 /* IDEWindowController+Private.m in Sources */,
 				9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */,
 				9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */,
 				9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */,
@@ -398,6 +409,7 @@
 				9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */,
 				9FDE74102667529C00A39A89 /* IDEOrderedDictionary.m in Sources */,
 				9F3192DD26660244002CB4CE /* main.m in Sources */,
+				9F1E0B0D2667680D00327F30 /* IDEWindowController.m in Sources */,
 				9FDE7413266752B300A39A89 /* IDETableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
