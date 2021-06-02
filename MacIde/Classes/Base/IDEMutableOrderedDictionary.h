@@ -12,4 +12,8 @@
     
     NSMutableArray * _keys;
     NSMutableArray * _objects;
+    
+@private
+    
+    RESERVED_IVARS(IDEMutableOrderedDictionary, 5);
 }
