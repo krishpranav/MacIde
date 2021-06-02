@@ -13,6 +13,9 @@
 		9F1E0B1526676B0400327F30 /* NSBundle+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B1426676B0400327F30 /* NSBundle+CE.m */; };
 		9F1E0B1826676D5B00327F30 /* NSFileManager+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B1726676D5B00327F30 /* NSFileManager+CE.m */; };
 		9F1E0B1B26676D7300327F30 /* NSImage+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B1A26676D7300327F30 /* NSImage+CE.m */; };
+		9F1E0B1E26676F4300327F30 /* NSString+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B1D26676F4300327F30 /* NSString+CE.m */; };
+		9F1E0B2126676F5900327F30 /* NSTextView+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B2026676F5900327F30 /* NSTextView+CE.m */; };
+		9F1E0B2426676F7400327F30 /* NSView+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B2326676F7300327F30 /* NSView+CE.m */; };
 		9F3192D726660244002CB4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F3192D626660244002CB4CE /* Assets.xcassets */; };
 		9F3192DA26660244002CB4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F3192D826660244002CB4CE /* Main.storyboard */; };
 		9F3192DD26660244002CB4CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192DC26660244002CB4CE /* main.m */; };
@@ -60,6 +63,12 @@
 		9F1E0B1726676D5B00327F30 /* NSFileManager+CE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+CE.m"; sourceTree = "<group>"; };
 		9F1E0B1926676D6700327F30 /* NSImage+CE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSImage+CE.h"; sourceTree = "<group>"; };
 		9F1E0B1A26676D7300327F30 /* NSImage+CE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSImage+CE.m"; sourceTree = "<group>"; };
+		9F1E0B1C26676F3700327F30 /* NSString+CE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CE.h"; sourceTree = "<group>"; };
+		9F1E0B1D26676F4300327F30 /* NSString+CE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CE.m"; sourceTree = "<group>"; };
+		9F1E0B1F26676F4D00327F30 /* NSTextView+CE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTextView+CE.h"; sourceTree = "<group>"; };
+		9F1E0B2026676F5900327F30 /* NSTextView+CE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTextView+CE.m"; sourceTree = "<group>"; };
+		9F1E0B2226676F6600327F30 /* NSView+CE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSView+CE.h"; sourceTree = "<group>"; };
+		9F1E0B2326676F7300327F30 /* NSView+CE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSView+CE.m"; sourceTree = "<group>"; };
 		9F3192CD26660242002CB4CE /* MacIde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacIde.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3192D626660244002CB4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F3192D926660244002CB4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -142,6 +151,12 @@
 				9F1E0B1726676D5B00327F30 /* NSFileManager+CE.m */,
 				9F1E0B1926676D6700327F30 /* NSImage+CE.h */,
 				9F1E0B1A26676D7300327F30 /* NSImage+CE.m */,
+				9F1E0B1C26676F3700327F30 /* NSString+CE.h */,
+				9F1E0B1D26676F4300327F30 /* NSString+CE.m */,
+				9F1E0B1F26676F4D00327F30 /* NSTextView+CE.h */,
+				9F1E0B2026676F5900327F30 /* NSTextView+CE.m */,
+				9F1E0B2226676F6600327F30 /* NSView+CE.h */,
+				9F1E0B2326676F7300327F30 /* NSView+CE.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -428,9 +443,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F1E0B0A266767ED00327F30 /* IDEWindowController+Private.m in Sources */,
+				9F1E0B2426676F7400327F30 /* NSView+CE.m in Sources */,
 				9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */,
+				9F1E0B2126676F5900327F30 /* NSTextView+CE.m in Sources */,
 				9F1E0B1226676AEF00327F30 /* NSApplication+CE.m in Sources */,
 				9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */,
+				9F1E0B1E26676F4300327F30 /* NSString+CE.m in Sources */,
 				9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */,
 				9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */,
 				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
