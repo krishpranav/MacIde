@@ -6,4 +6,7 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "IDEWindowController.h"
+
+static NSString * const __classSuffix               = @"Controller";
+NSString * const IDEWindowControllerException = @"IDEWindowControllerException";
