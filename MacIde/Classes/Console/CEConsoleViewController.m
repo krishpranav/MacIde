@@ -6,4 +6,12 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "CEConsoleViewController.h"
+#import "CEConsoleViewController+Private.h"
+#import "CEPreferences.h"
+
+@implementation CEConsoleViewController
+
+@synthesize textView = _textView
+
+@end
