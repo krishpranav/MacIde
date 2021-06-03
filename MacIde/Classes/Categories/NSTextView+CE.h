@@ -6,8 +6,13 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef NSTextView_CE_h
-#define NSTextView_CE_h
+@interface NSTextView( CE )
 
+- ( NSUInteger )numberOfHardLines;
+- ( NSUInteger )numberOfSoftLines;
+- ( void )enableSoftWrap;
+- ( void )disableSoftWrap;
+- ( NSInteger )currentLine;
+- ( NSInteger )currentColumn;
 
-#endif /* NSTextView_CE_h */
+@end
