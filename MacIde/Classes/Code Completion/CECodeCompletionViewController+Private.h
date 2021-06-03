@@ -6,8 +6,8 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef CECodeCompletionViewController_Private_h
-#define CECodeCompletionViewController_Private_h
+#import "CECodeCompletionViewController.h"
 
+@interface CECodeCompletionViewController(Private)
 
-#endif /* CECodeCompletionViewController_Private_h */
+@end
