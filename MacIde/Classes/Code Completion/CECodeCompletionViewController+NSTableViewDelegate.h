@@ -6,8 +6,10 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef CECodeCompletionViewController_NSTableViewDelegate_h
-#define CECodeCompletionViewController_NSTableViewDelegate_h
+#import "CECodeCompletionViewController.h"
+
+@interface CECodeCompletionViewController( NSTableViewDelegate ) < NSTableViewDelegate >
 
 
-#endif /* CECodeCompletionViewController_NSTableViewDelegate_h */
+
+@end
