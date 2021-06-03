@@ -154,6 +154,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F0126E32668CA01004773B7 /* Console */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Console;
+			sourceTree = "<group>";
+		};
+		9F0126E42668CA0B004773B7 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
 		9F1E0B0F26676AD100327F30 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,6 +304,8 @@
 		9FCC178B26664366002E0EE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9F0126E42668CA0B004773B7 /* Debug */,
+				9F0126E32668CA01004773B7 /* Console */,
 				9FA1966B26689F600060D586 /* Code Completion */,
 				9F1E0B0F26676AD100327F30 /* Categories */,
 				9FDE740A2667524F00A39A89 /* Base */,
