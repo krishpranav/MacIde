@@ -6,8 +6,10 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef CEConsoleViewController_Private_h
-#define CEConsoleViewController_Private_h
+#import "CEConsoleViewController.h"
 
+@interface CEConsoleViewController(Private)
 
-#endif /* CEConsoleViewController_Private_h */
+- (void)updateView;
+
+@end
