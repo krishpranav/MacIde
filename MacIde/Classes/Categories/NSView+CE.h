@@ -6,8 +6,8 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef NSView_CE_h
-#define NSView_CE_h
+@interface NSView(CE)
 
+- (void)centerInSuperview;
 
-#endif /* NSView_CE_h */
+@end
