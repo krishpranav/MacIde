@@ -6,4 +6,8 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "CECodeCompletionViewController+Private.h"
+
+@implementation CECodeCompletionViewController(Private)
+
+@end
