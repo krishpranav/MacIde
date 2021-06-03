@@ -25,5 +25,9 @@
 @property(    atomic, readonly          )          BOOL          isOpening;
 @property( nonatomic, readwrite, retain ) IBOutlet NSTableView * tableView;
 
+- ( id )initWithCompletionResults: ( NSArray * )results;
+- ( void )cancelOpening;
+- ( void )openInPopoverRelativeToRect: ( NSRect )rect ofView: ( NSView * )view preferredEdge: ( NSRectEdge )edge delay: ( BOOL )delay;
 
+@end
 
