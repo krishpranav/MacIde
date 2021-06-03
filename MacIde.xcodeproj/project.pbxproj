@@ -23,6 +23,8 @@
 		9F3192F326660245002CB4CE /* MacIdeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3192F226660245002CB4CE /* MacIdeUITests.m */; };
 		9F3F8AE02666188F007FB828 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F3F8ADF2666188F007FB828 /* Info.plist */; };
 		9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6AD67C2667619F00BE68F9 /* IDEViewController.m */; };
+		9FA1966E2668A3800060D586 /* CECodeCompletionViewController+NSTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1966D2668A3800060D586 /* CECodeCompletionViewController+NSTableViewDataSource.m */; };
+		9FA196712668A3A80060D586 /* CECodeCompletionViewController+NSTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FA196702668A3A80060D586 /* CECodeCompletionViewController+NSTableViewDelegate.m */; };
 		9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */; };
 		9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC1792266643D6002E0EE8 /* IDEAlternateAboutWindowController.m */; };
 		9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCC17972666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m */; };
@@ -96,6 +98,10 @@
 		9F6AD67A266760ED00BE68F9 /* IDETableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDETableViewDelegate.h; sourceTree = "<group>"; };
 		9F6AD67B2667619300BE68F9 /* IDEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
 		9F6AD67C2667619F00BE68F9 /* IDEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEViewController.m; sourceTree = "<group>"; };
+		9FA1966C2668A36F0060D586 /* CECodeCompletionViewController+NSTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CECodeCompletionViewController+NSTableViewDataSource.h"; sourceTree = "<group>"; };
+		9FA1966D2668A3800060D586 /* CECodeCompletionViewController+NSTableViewDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CECodeCompletionViewController+NSTableViewDataSource.m"; sourceTree = "<group>"; };
+		9FA1966F2668A39B0060D586 /* CECodeCompletionViewController+NSTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CECodeCompletionViewController+NSTableViewDelegate.h"; sourceTree = "<group>"; };
+		9FA196702668A3A80060D586 /* CECodeCompletionViewController+NSTableViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CECodeCompletionViewController+NSTableViewDelegate.m"; sourceTree = "<group>"; };
 		9FCC178D2666438D002E0EE8 /* IDEAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAboutWindowController.h; sourceTree = "<group>"; };
 		9FCC178E2666439F002E0EE8 /* IDEAboutWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEAboutWindowController.m; sourceTree = "<group>"; };
 		9FCC1791266643C4002E0EE8 /* IDEAlternateAboutWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEAlternateAboutWindowController.h; sourceTree = "<group>"; };
@@ -257,9 +263,21 @@
 			path = include;
 			sourceTree = "<group>";
 		};
+		9FA1966B26689F600060D586 /* Code Completion */ = {
+			isa = PBXGroup;
+			children = (
+				9FA1966C2668A36F0060D586 /* CECodeCompletionViewController+NSTableViewDataSource.h */,
+				9FA1966D2668A3800060D586 /* CECodeCompletionViewController+NSTableViewDataSource.m */,
+				9FA1966F2668A39B0060D586 /* CECodeCompletionViewController+NSTableViewDelegate.h */,
+				9FA196702668A3A80060D586 /* CECodeCompletionViewController+NSTableViewDelegate.m */,
+			);
+			path = "Code Completion";
+			sourceTree = "<group>";
+		};
 		9FCC178B26664366002E0EE8 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9FA1966B26689F600060D586 /* Code Completion */,
 				9F1E0B0F26676AD100327F30 /* Categories */,
 				9FDE740A2667524F00A39A89 /* Base */,
 				9FCC1794266646E4002E0EE8 /* Application */,
@@ -445,7 +463,9 @@
 				9F1E0B0A266767ED00327F30 /* IDEWindowController+Private.m in Sources */,
 				9F1E0B2426676F7400327F30 /* NSView+CE.m in Sources */,
 				9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */,
+				9FA1966E2668A3800060D586 /* CECodeCompletionViewController+NSTableViewDataSource.m in Sources */,
 				9F1E0B2126676F5900327F30 /* NSTextView+CE.m in Sources */,
+				9FA196712668A3A80060D586 /* CECodeCompletionViewController+NSTableViewDelegate.m in Sources */,
 				9F1E0B1226676AEF00327F30 /* NSApplication+CE.m in Sources */,
 				9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */,
 				9F1E0B1E26676F4300327F30 /* NSString+CE.m in Sources */,
