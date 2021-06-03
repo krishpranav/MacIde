@@ -22,5 +22,8 @@
     RESERVED_IVARS( CECodeCompletionViewController, 5 );
 }
 
+@property(    atomic, readonly          )          BOOL          isOpening;
+@property( nonatomic, readwrite, retain ) IBOutlet NSTableView * tableView;
+
 
 
