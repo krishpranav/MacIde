@@ -19,5 +19,6 @@
     RESERVED_IVARS(CEConsoleViewController, 5);
 }
 
+@property(nonatomic, readwrite, retain) IBOutlet NSTextView * textView;
 
 @end
