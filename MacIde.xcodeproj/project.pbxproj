@@ -11,6 +11,9 @@
 		9F0126E12668C885004773B7 /* CECodeCompletionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0126E02668C885004773B7 /* CECodeCompletionViewController.m */; };
 		9F0126E72668CA3F004773B7 /* CEConsoleViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0126E62668CA3F004773B7 /* CEConsoleViewController+Private.m */; };
 		9F0126EA2668CA52004773B7 /* CEConsoleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0126E92668CA52004773B7 /* CEConsoleViewController.m */; };
+		9F0126ED2668CCB5004773B7 /* CEDebugViewController+CEVerticalTabViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0126EC2668CCB5004773B7 /* CEDebugViewController+CEVerticalTabViewDelegate.m */; };
+		9F0126F02668CCCA004773B7 /* CEDebugViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0126EF2668CCCA004773B7 /* CEDebugViewController+Private.m */; };
+		9F0126F32668CCDC004773B7 /* CEDebugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0126F22668CCDC004773B7 /* CEDebugViewController.m */; };
 		9F1E0B0A266767ED00327F30 /* IDEWindowController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */; };
 		9F1E0B0D2667680D00327F30 /* IDEWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B0C2667680D00327F30 /* IDEWindowController.m */; };
 		9F1E0B1226676AEF00327F30 /* NSApplication+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B1126676AEF00327F30 /* NSApplication+CE.m */; };
@@ -66,6 +69,12 @@
 		9F0126E62668CA3F004773B7 /* CEConsoleViewController+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CEConsoleViewController+Private.m"; sourceTree = "<group>"; };
 		9F0126E82668CA49004773B7 /* CEConsoleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEConsoleViewController.h; sourceTree = "<group>"; };
 		9F0126E92668CA52004773B7 /* CEConsoleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEConsoleViewController.m; sourceTree = "<group>"; };
+		9F0126EB2668CC7E004773B7 /* CEDebugViewController+CEVerticalTabViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CEDebugViewController+CEVerticalTabViewDelegate.h"; sourceTree = "<group>"; };
+		9F0126EC2668CCB5004773B7 /* CEDebugViewController+CEVerticalTabViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CEDebugViewController+CEVerticalTabViewDelegate.m"; sourceTree = "<group>"; };
+		9F0126EE2668CCC0004773B7 /* CEDebugViewController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CEDebugViewController+Private.h"; sourceTree = "<group>"; };
+		9F0126EF2668CCCA004773B7 /* CEDebugViewController+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CEDebugViewController+Private.m"; sourceTree = "<group>"; };
+		9F0126F12668CCD2004773B7 /* CEDebugViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEDebugViewController.h; sourceTree = "<group>"; };
+		9F0126F22668CCDC004773B7 /* CEDebugViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEDebugViewController.m; sourceTree = "<group>"; };
 		9F1E0B08266767DF00327F30 /* IDEWindowController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDEWindowController+Private.h"; sourceTree = "<group>"; };
 		9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEWindowController+Private.m"; sourceTree = "<group>"; };
 		9F1E0B0B266767FC00327F30 /* IDEWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWindowController.h; sourceTree = "<group>"; };
@@ -174,6 +183,12 @@
 		9F0126E42668CA0B004773B7 /* Debug */ = {
 			isa = PBXGroup;
 			children = (
+				9F0126EB2668CC7E004773B7 /* CEDebugViewController+CEVerticalTabViewDelegate.h */,
+				9F0126EC2668CCB5004773B7 /* CEDebugViewController+CEVerticalTabViewDelegate.m */,
+				9F0126EE2668CCC0004773B7 /* CEDebugViewController+Private.h */,
+				9F0126EF2668CCCA004773B7 /* CEDebugViewController+Private.m */,
+				9F0126F12668CCD2004773B7 /* CEDebugViewController.h */,
+				9F0126F22668CCDC004773B7 /* CEDebugViewController.m */,
 			);
 			path = Debug;
 			sourceTree = "<group>";
@@ -504,6 +519,7 @@
 				9F1E0B2426676F7400327F30 /* NSView+CE.m in Sources */,
 				9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */,
 				9FA1966E2668A3800060D586 /* CECodeCompletionViewController+NSTableViewDataSource.m in Sources */,
+				9F0126F32668CCDC004773B7 /* CEDebugViewController.m in Sources */,
 				9F1E0B2126676F5900327F30 /* NSTextView+CE.m in Sources */,
 				9F0126EA2668CA52004773B7 /* CEConsoleViewController.m in Sources */,
 				9F0126DE2668C870004773B7 /* CECodeCompletionViewController+Private.m in Sources */,
@@ -512,6 +528,7 @@
 				9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */,
 				9F1E0B1E26676F4300327F30 /* NSString+CE.m in Sources */,
 				9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */,
+				9F0126ED2668CCB5004773B7 /* CEDebugViewController+CEVerticalTabViewDelegate.m in Sources */,
 				9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */,
 				9F0126E72668CA3F004773B7 /* CEConsoleViewController+Private.m in Sources */,
 				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
@@ -525,6 +542,7 @@
 				9F1E0B0D2667680D00327F30 /* IDEWindowController.m in Sources */,
 				9F1E0B1B26676D7300327F30 /* NSImage+CE.m in Sources */,
 				9FDE7413266752B300A39A89 /* IDETableView.m in Sources */,
+				9F0126F02668CCCA004773B7 /* CEDebugViewController+Private.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
