@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F0126DE2668C870004773B7 /* CECodeCompletionViewController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0126DD2668C870004773B7 /* CECodeCompletionViewController+Private.m */; };
+		9F0126E12668C885004773B7 /* CECodeCompletionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F0126E02668C885004773B7 /* CECodeCompletionViewController.m */; };
 		9F1E0B0A266767ED00327F30 /* IDEWindowController+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */; };
 		9F1E0B0D2667680D00327F30 /* IDEWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B0C2667680D00327F30 /* IDEWindowController.m */; };
 		9F1E0B1226676AEF00327F30 /* NSApplication+CE.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1E0B1126676AEF00327F30 /* NSApplication+CE.m */; };
@@ -54,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F0126DC2668C861004773B7 /* CECodeCompletionViewController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CECodeCompletionViewController+Private.h"; sourceTree = "<group>"; };
+		9F0126DD2668C870004773B7 /* CECodeCompletionViewController+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CECodeCompletionViewController+Private.m"; sourceTree = "<group>"; };
+		9F0126DF2668C87C004773B7 /* CECodeCompletionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CECodeCompletionViewController.h; sourceTree = "<group>"; };
+		9F0126E02668C885004773B7 /* CECodeCompletionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CECodeCompletionViewController.m; sourceTree = "<group>"; };
 		9F1E0B08266767DF00327F30 /* IDEWindowController+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDEWindowController+Private.h"; sourceTree = "<group>"; };
 		9F1E0B09266767ED00327F30 /* IDEWindowController+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEWindowController+Private.m"; sourceTree = "<group>"; };
 		9F1E0B0B266767FC00327F30 /* IDEWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWindowController.h; sourceTree = "<group>"; };
@@ -273,6 +279,10 @@
 				9FA1966D2668A3800060D586 /* CECodeCompletionViewController+NSTableViewDataSource.m */,
 				9FA1966F2668A39B0060D586 /* CECodeCompletionViewController+NSTableViewDelegate.h */,
 				9FA196702668A3A80060D586 /* CECodeCompletionViewController+NSTableViewDelegate.m */,
+				9F0126DC2668C861004773B7 /* CECodeCompletionViewController+Private.h */,
+				9F0126DD2668C870004773B7 /* CECodeCompletionViewController+Private.m */,
+				9F0126DF2668C87C004773B7 /* CECodeCompletionViewController.h */,
+				9F0126E02668C885004773B7 /* CECodeCompletionViewController.m */,
 			);
 			path = "Code Completion";
 			sourceTree = "<group>";
@@ -469,6 +479,7 @@
 				9FDE740D2667527E00A39A89 /* IDEMutableOrderedDictionary.m in Sources */,
 				9FA1966E2668A3800060D586 /* CECodeCompletionViewController+NSTableViewDataSource.m in Sources */,
 				9F1E0B2126676F5900327F30 /* NSTextView+CE.m in Sources */,
+				9F0126DE2668C870004773B7 /* CECodeCompletionViewController+Private.m in Sources */,
 				9FA196712668A3A80060D586 /* CECodeCompletionViewController+NSTableViewDelegate.m in Sources */,
 				9F1E0B1226676AEF00327F30 /* NSApplication+CE.m in Sources */,
 				9F6AD67D2667619F00BE68F9 /* IDEViewController.m in Sources */,
@@ -476,6 +487,7 @@
 				9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */,
 				9FCC17982666471D002E0EE8 /* IDEApplicationDelegate+NSOpenSavePanelDelegate.m in Sources */,
 				9FCC1793266643D6002E0EE8 /* IDEAlternateAboutWindowController.m in Sources */,
+				9F0126E12668C885004773B7 /* CECodeCompletionViewController.m in Sources */,
 				9FE6E9BC26664C6C00735C3B /* IDEApplicationDelegate+Private.m in Sources */,
 				9F1E0B1526676B0400327F30 /* NSBundle+CE.m in Sources */,
 				9FCC178F2666439F002E0EE8 /* IDEAboutWindowController.m in Sources */,
