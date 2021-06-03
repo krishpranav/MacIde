@@ -6,4 +6,10 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "CECodeCompletionViewController+NSTableViewDelegate.h"
+
+@implementation CECodeCompletionViewController( NSTableViewDelegate )
+
+
+
+@end
