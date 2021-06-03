@@ -33,6 +33,7 @@
 		9FDE7413266752B300A39A89 /* IDETableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE7412266752B300A39A89 /* IDETableView.m */; };
 		9FE6E9BC26664C6C00735C3B /* IDEApplicationDelegate+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6E9BB26664C6C00735C3B /* IDEApplicationDelegate+Private.m */; };
 		9FE6E9BF26664C8700735C3B /* IDEApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE6E9BE26664C8700735C3B /* IDEApplicationDelegate.m */; };
+		9FF592922668B732004B6092 /* UI in Resources */ = {isa = PBXBuildFile; fileRef = 9FF592912668B732004B6092 /* UI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +120,7 @@
 		9FE6E9BB26664C6C00735C3B /* IDEApplicationDelegate+Private.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "IDEApplicationDelegate+Private.m"; sourceTree = "<group>"; };
 		9FE6E9BD26664C7A00735C3B /* IDEApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEApplicationDelegate.h; sourceTree = "<group>"; };
 		9FE6E9BE26664C8700735C3B /* IDEApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDEApplicationDelegate.m; sourceTree = "<group>"; };
+		9FF592912668B732004B6092 /* UI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 		9F3192CF26660242002CB4CE /* MacIde */ = {
 			isa = PBXGroup;
 			children = (
+				9FF592912668B732004B6092 /* UI */,
 				9FCC178B26664366002E0EE8 /* Classes */,
 				9F3F8ADD26661841007FB828 /* Clang.bundle */,
 				9F3192D626660244002CB4CE /* Assets.xcassets */,
@@ -433,6 +436,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF592922668B732004B6092 /* UI in Resources */,
 				9F3192D726660244002CB4CE /* Assets.xcassets in Resources */,
 				9F3192DA26660244002CB4CE /* Main.storyboard in Resources */,
 				9F3F8AE02666188F007FB828 /* Info.plist in Resources */,
