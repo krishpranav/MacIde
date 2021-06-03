@@ -12,6 +12,15 @@
 
 @implementation CEConsoleViewController
 
-@synthesize textView = _textView
+@synthesize textView = _textView;
+
+- (void)dealloc
+{
+    [ NOTIFICATION_CENTER removeObserver: self ];
+    
+    RELEASE_IVAR(_textView);
+    
+    [ super dealloc]
+}
 
 @end
