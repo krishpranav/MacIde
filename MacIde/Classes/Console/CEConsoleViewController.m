@@ -23,4 +23,12 @@
     [ super dealloc]
 }
 
+
+- (void)awakeFromNib
+{
+        [ NOTIFICATION_CENTER addObserver: self selector: @selector( updateView ) name: CEPreferencesNotificationValueChanged object: nil ];
+    [self updateView];
+}
+
+
 @end
