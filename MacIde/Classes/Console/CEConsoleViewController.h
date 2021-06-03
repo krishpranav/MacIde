@@ -6,8 +6,18 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef CEConsoleViewController_h
-#define CEConsoleViewController_h
+#import "CEViewController.h"
+
+@interface CEConsoleViewController: CEViewController
+{
+@protected
+    
+    NSTextView * _textView;
+    
+@private
+    
+    RESERVED_IVARS(CEConsoleViewController, 5);
+}
 
 
-#endif /* CEConsoleViewController_h */
+@end
