@@ -6,8 +6,9 @@
 //  Copyright © 2021 Krisna Pranav. All rights reserved.
 //
 
-#ifndef CEDebugViewController_CEVerticalTabViewDelegate_h
-#define CEDebugViewController_CEVerticalTabViewDelegate_h
+#import "CEDebugViewController.h"
+#import "CEVerticalTabViewDelegate.h"
 
+@interface CEDebugViewController( CEVerticalTabViewDelegate ) < CEVerticalTabViewDelegate >
 
-#endif /* CEDebugViewController_CEVerticalTabViewDelegate_h */
+@end
